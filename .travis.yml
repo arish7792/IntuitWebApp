@@ -2,11 +2,6 @@ sudo: required
 services:
   - docker
 
-branches:
-  only:
-    - master
-    - stable
-
 before_install:
   - docker build -t intuit -f Dockerfile.dev .
 
