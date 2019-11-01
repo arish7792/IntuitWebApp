@@ -2,8 +2,13 @@ sudo: required
 services:
   - docker
 
+branches:
+  only:
+  - master
+  - stable
+  
 before_install:
   - docker build -t intuit -f Dockerfile.dev .
 
 script:
-  - docker run intuit npm run test -- --coverage
+  - docker run -e CI=true intuit npm run test
