@@ -10,7 +10,7 @@ script:
 
 deploy:
   provider: elasticbeanstalk
-  region: "us-west-2"
+  region: "us-west-1"
   app: "Intuit1"
   env: "Intuit1-env"
   bucket_name: "elasticbeanstalk-us-west-1-7715100094871"
