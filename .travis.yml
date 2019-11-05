@@ -10,11 +10,11 @@ script:
 
 deploy:
   provider: elasticbeanstalk
-  region: "us-west-1"
-  app: "Intuit"
-  env: "Intuit-env"
-  bucket_name: "elasticbeanstalk-us-west-1-771510009487"
-  bucket_path: "Intuit"
+  region: "us-west-2"
+  app: "Intuit1"
+  env: "Intuit1-env"
+  bucket_name: "elasticbeanstalk-us-west-1-7715100094871"
+  bucket_path: "Intuit1"
   on:
     branch: master
   access_key_id: "$AWS_ACCESS_KEY"
