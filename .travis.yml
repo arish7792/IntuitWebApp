@@ -2,13 +2,18 @@ sudo: required
 services:
   - docker
 
-branches:
-  only:
-  - master
-  - stable
-  
 before_install:
   - docker build -t intuit -f Dockerfile.dev .
 
 script:
   - docker run -e CI=true intuit npm run test
+
+deploy:
+  provider: elasticbeanstalk
+  region: "us-west-1"
+  app: "IntuitApp"
+  env: "Intuitapp-env"
+  bucker_name: "elasticbeanstalk-us-west-1-771510009487"
+  bucket_path: " IntuitApp"
+  on:
+    branch: master
