@@ -13,7 +13,7 @@ deploy:
   region: "us-west-1"
   app: "IntuitApp"
   env: "Intuitapp-env"
-  bucker_name: "elasticbeanstalk-us-west-1-771510009487"
+  bucket_name: "elasticbeanstalk-us-west-1-771510009487"
   bucket_path: "IntuitApp"
   on:
     branch: master
