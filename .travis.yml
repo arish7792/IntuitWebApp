@@ -14,7 +14,7 @@ deploy:
   app: "IntuitApp"
   env: "Intuitapp-env"
   bucker_name: "elasticbeanstalk-us-west-1-771510009487"
-  bucket_path: " IntuitApp"
+  bucket_path: "IntuitApp"
   on:
     branch: master
   access_key_id: "$AWS_ACCESS_KEY"
