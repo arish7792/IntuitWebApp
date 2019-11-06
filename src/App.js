@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './logo1.svg';
+import logo from './intuit.svg';
 import './App.css';
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Welcome to Intuit Interview man.
+          I work at Intuit.
         </p>
       </header>
     </div>
