@@ -9,6 +9,9 @@ script:
   - docker run -e CI=true intuit npm run test
 
 deploy:
+  provider: s3
+  edge:
+    branch: master
   provider: elasticbeanstalk
   region: "us-west-1"
   app: "Intuit"
