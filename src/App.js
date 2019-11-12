@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './informatica.svg';
+import logo from './intuit.svg';
 import './App.css';
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          I work at Informatica.
+          I work at Intuit.
         </p>
       </header>
     </div>
