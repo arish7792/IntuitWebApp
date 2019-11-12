@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          I work at Intuit.
+          I work at Intuit office.
         </p>
       </header>
     </div>
